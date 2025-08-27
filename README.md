@@ -38,3 +38,35 @@ Equilibrium is obtained by enforcing stationarity via Newton–Raphson iteration
    ```bash
    git clone https://github.com/<your-username>/nonlinear-beam-ritz.git
    cd nonlinear-beam-ritz
+Open nonlinear_beam.m in MATLAB.
+
+Run the script:
+
+>> nonlinear_beam
+
+
+The script will generate:
+
+Load–deflection curve
+
+Final deformed shape (undeformed, linear, and nonlinear)
+
+🔹 Example Results
+
+Load–Deflection Curve
+Nonlinear response compared against linear theory.
+
+Deformed Shape
+Shows the beam’s nonlinear deformation with axial stretching effects.
+
+🔹 Requirements
+
+MATLAB (tested on R2022b, but should work on most versions with Symbolic Toolbox)
+
+🔹 Future Extensions
+
+Multi-element Ritz/FEM formulation
+
+Dynamic analysis (time integration)
+
+Different boundary conditions and loading cases
